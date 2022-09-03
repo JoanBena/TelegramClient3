@@ -1,22 +1,19 @@
 const { Client } = require('tdl')
 const { TDLib } = require('tdl-tdlib-addon')
+
 const tdlib = new TDLib();
-
-// CLIENT 3 +3547604215 
-// "/root/td/tdlib/lib/libtdjson.so" 
-
-const client3 = new Client(new TDLib(), {
+const client = new Client(new TDLib(), {
     apiId: 15575695, // Your api_id
     apiHash: "dda9e8ede12f37ab470e965c2576a65a",
-    databaseDirectory: "_td_database3",
-    filesDirectory: "_td_files3",
+    databaseDirectory: "_td_databaseA",
+    filesDirectory: "_td_filesA",
   });
 
-client3.on('error', console.error)
+client.on('error', console.error)
 async function chats(){
-  await client3.connectAndLogin()
+  await client.connectAndLogin()
 
-  const result = await client3.invoke({
+  const result = await client.invoke({
     _: 'getChats',
     offset_order: '9223372036854775807',
     offset_chat_id: 0,
@@ -27,3 +24,4 @@ async function chats(){
 
 }
 chats()
+
