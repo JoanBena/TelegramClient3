@@ -1,8 +1,7 @@
 const { Client } = require('tdl')
 const { TDLib } = require('tdl-tdlib-addon')
 
-const tdlib = new TDLib();
-const client = new Client(new TDLib(), {
+const client = new Client(new TDLib("/root/td/tdlib/lib/libtdjson.so"), {
     apiId: 15575695, // Your api_id
     apiHash: "dda9e8ede12f37ab470e965c2576a65a",
     databaseDirectory: "_td_databaseA",
