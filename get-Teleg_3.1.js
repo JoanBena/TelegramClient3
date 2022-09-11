@@ -1,11 +1,10 @@
 const { Client } = require('tdl')
 const { TDLib } = require('tdl-tdlib-addon')
-const tdlib = new TDLib();
 
 // Teleg_3.1 +3547640625 
 // "/root/td/tdlib/lib/libtdjson.so" 
 
-const client1 = new Client(new TDLib(), {
+const client1 = new Client(new TDLib("/root/td/tdlib/lib/libtdjson.so"), {
     apiId: 17784015 , // Your api_id
     apiHash: "f5a0c8ced83c0975b9ccc4066e2ce51e",
     databaseDirectory: "_td_databaseTeleg3.1",
