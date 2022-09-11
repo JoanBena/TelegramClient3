@@ -22,7 +22,7 @@ const client = new Client(new TDLib("/root/td/tdlib/lib/libtdjson.so"), {
 });
 client.on("error", console.error);
 
-const chatIds = [-1001734609031]
+const chatIds = [-1001668973753, -1001593756245, -1001597339841, -701386025, -1001734609031]
 
 
 const flag ="🇮🇸 BLUE CHEESE 💙❄️ INDICA\n🇮🇸 NORTHERN LIGHT 🌈🌈INDICA\n🇮🇸 BLUE DREAM 🌟🌟 SATIVA\n🇮🇸 G-13  ☄️⚡️SATIVA\n\n";
