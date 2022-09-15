@@ -1,6 +1,6 @@
 const { Client } = require('tdl')
 const { TDLib } = require('tdl-tdlib-addon')
-const tdlib = new TDLib();
+
 
 // Teleg_3.3 +3547640625
 // "/root/td/tdlib/lib/libtdjson.so" 
