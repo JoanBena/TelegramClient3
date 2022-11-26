@@ -33,18 +33,18 @@ const chatIds_3 = [
 ];
  
 
-const flag ="🇮🇸 NORTHERN LIGHT 🌈🌈INDICA\n🇮🇸 BLUE DREAM 🌟🌟 SATIVA\n\n";
-const motto = "🪙🚀THE BEST QUALITY🪙🚀 \n\n";
-const call ="Call me here📲 7640629☎️\nCall me here📲 7640629☎️\nCall me here📲 7640629☎️\nText 📲 7640629📲\n\n";
-const driving = "🚗🚗IM DRIVING +2 🚗🚗\n⏰24/7⏰\n\n";
-const disc = "👉PICK UP FOR DISCOUNT 👈\n\n\n";
-const location ="IM IN📍HALLGRIMSKIRKJA 📌 KLAMBRATÚN\n📌DOWNTOWN 📌 SKIPHOLT\n📌UNIVERSITY📌 VESTURBAER \n📌ARBAER📌BREIHOLT📌 \nHAFNAFJORDUR📌KOPAVOGUR\n📌SKEIFAN📌GARDABAER\n📌LAUGARDALUR 📌GRAFARHOLTS\n📌MOSFELLSBAER\nAND MORE LOCATIONS IN REYKIAVIK 🏙\n\n";
-const delivery = "🚗🚗FAST DELIVERY🚗🚗\n⏰⏰24/7⏰⏰\n\n\n";
-const cost ="➡️1G - 3K 💸\n➡️2G - 6K💸\n➡️3G - 9K 💸\n➡️5G - 14K💸\n➡️8G - 22K💸\n➡️10G - 27K💸\n➡️20G - 49K💸\n➡️30G - 79K💸\n➡️PAYMENT :CASH💸 \n\n";
-var text = "Text 📲 7640629📲\n\n";
-var te_xt = "🇮🇸💙📲💨🛫\n🇮🇸💙📲💨🛫\n🇮🇸💙📲💨🛫";
+const flag ="🌠🌠BLUE DREAM 🌠🌠\n💙🧀BLUE CHEESE 🧀💙\n⚡️⚡️NORTHERN LIGHT⚡️⚡️\n\n";
+const xxxxxx = "👉PICK UP & GET DISSCOUNT\n\n";
+const motto ="🪙🚀THE BEST QUALITY🪙🚀\n⚖️GRAM IS REAL GRAM⚖️\n\n";
+const call ="Call me here📲 7648627 ☎️\nCall me here📲 7648627☎️\nCall me here📲 7648627☎️\nText 📲 7648627📲\nWhats up me 📲7648627 ☎️\n\n\n";
+const driving = "🚗🚗IM DRIVING +2 🚗🚗\nDRIVING  🕔24h\n\n";
+const location ="IM IN📍HALLGRIMSKIRKJA 📌 KLAMBRATÚN\n📌DOWNTOWN 📌 SKIPHOLT \n📌UNIVERSITY📌 VESTURBAER 📌ARBAER📌BREIHOLT 📌 HAFNAFJORDUR 📌KOPAVOGUR 📌 SKEIFAN 📌 GARDABAER\n📌LAUGARDALUR GRAFARHOLTS\n📌MOSFELLSBAER\nAND MORE LOCATIONS IN REYKIAVIK AND ICELAND 🏙\n\n";
+const delivery = "🚗🚗FAST DELIVERY🚗🚗\n💯PROFESSIONAL SERVICE💯\n📈BEST RATES AROUND📈\n\n\n";
+const cost ="➡️1G - 3K 💸\n➡️2G - 6K💸\n➡️3G - 9K 💸\n➡️5G - 14K💸\n➡️8G - 22K💸\n➡️10G - 27K💸\n➡️20G - 49K💸\n➡️30G - 79K💸\n➡️PAYMENT :ONLY CASH💸 \n\n";
+var text = "Text 📲 7648627📲\n\n";
+var te_xt = "Hærra🇮🇸💙📲💨🛫\nHærra🇮🇸💙📲💨🛫\nHærra🇮🇸💙📲💨🛫";
 
-const fullMessage =flag + motto + call + driving + disc + location + delivery + cost + text + te_xt;
+const fullMessage =flag + xxxxxx + motto + call + driving + location + delivery + cost + text + te_xt;
 
 async function main() {
 
@@ -74,7 +74,7 @@ async function sendMessageToGroupTeleg3_3(chat3, message) {
           "@type": "inputMessagePhoto",
           photo: {
             "@type": "inputFileLocal",
-            path: "Teleg_3.jpg",
+            path: "telegramImageUpdate.jpg",
           },
           caption: {
             "@type": "formattedText",
