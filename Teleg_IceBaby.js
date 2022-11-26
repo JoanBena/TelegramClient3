@@ -3,7 +3,7 @@ const { TDLib } = require("tdl-tdlib-addon");
 // request for server scheduling
 const cron = require("node-cron");
 
-//+3547689058
+//+3547689058 Ice Baby
 
 const client4 = new Client(new TDLib("/root/td/tdlib/lib/libtdjson.so"), {
   apiId: 17784015, // Your api_id
@@ -33,14 +33,18 @@ const chatIds_4 = [
   -1001488081229,-227003856  
 ];
 
- const flag ="Nature, in the broadest sense, is the physical world or universe. \n\n";
- const motto = " Nature can refer to the phenomena of the physical world,  \n\n";
- const call ="and also to life in general. The study of nature is a large,\n\n";
- const driving = "if not the only, part of science. \n\n";
- const disc = "Although humans are part of nature, human activity is often \n\n\n";
- const location ="understood as a separate category from other natural phenomena.\n\n";
+const flag ="🇮🌠🌠BLUE DREAM 🌠🌠\n💙🧀BLUE CHEESE 🧀💙\n⚡️⚡️NORTHERN LIGHT⚡️⚡️\n\n";
+const xxxxxx = "👉PICK UP & GET DISSCOUNT\n\n";
+const motto ="🪙🚀THE BEST QUALITY🪙🚀\n⚖️GRAM IS REAL GRAM⚖️\n\n";
+const call ="Call me here📲 7648627 ☎️\nCall me here📲 7648627☎️\nCall me here📲 7648627☎️\nText 📲 7648627📲\nWhats up me 📲7648627 ☎️\n\n\n";
+const driving = "🚗🚗IM DRIVING +2 🚗🚗\nDRIVING  🕔24h\n\n";
+const location ="IM IN📍HALLGRIMSKIRKJA 📌 KLAMBRATÚN\n📌DOWNTOWN 📌 SKIPHOLT \n📌UNIVERSITY📌 VESTURBAER 📌ARBAER📌BREIHOLT 📌 HAFNAFJORDUR 📌KOPAVOGUR 📌 SKEIFAN 📌 GARDABAER\n📌LAUGARDALUR GRAFARHOLTS\n📌MOSFELLSBAER\nAND MORE LOCATIONS IN REYKIAVIK AND ICELAND 🏙\n\n";
+const delivery = "🚗🚗FAST DELIVERY🚗🚗\n💯PROFESSIONAL SERVICE💯\n📈BEST RATES AROUND📈\n\n\n";
+const cost ="➡️1G - 3K 💸\n➡️2G - 6K💸\n➡️3G - 9K 💸\n➡️5G - 14K💸\n➡️8G - 22K💸\n➡️10G - 27K💸\n➡️20G - 49K💸\n➡️30G - 79K💸\n➡️PAYMENT :ONLY CASH💸 \n\n";
+var text = "Text 📲 7648627📲\n\n";
+var te_xt = "Hærra🇮🇸💙📲💨🛫\nHærra🇮🇸💙📲💨🛫\nHærra🇮🇸💙📲💨🛫";
 
- const fullMessage =flag + motto + call + driving + disc + location;
+const fullMessage =flag + xxxxxx + motto + call + driving + location + delivery + cost + text + te_xt;
 
 async function main() {
 
@@ -70,7 +74,8 @@ async function sendMessageToGroupTeleg3_4(chat4, message) {
           "@type": "inputMessagePhoto",
           photo: {
             "@type": "inputFileLocal",
-            path: "natyre.jpg",
+            path: "telegramImageUpdate.jpg
+",
           },
           caption: {
             "@type": "formattedText",
