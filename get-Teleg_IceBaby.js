@@ -2,7 +2,7 @@ const { Client } = require('tdl')
 const { TDLib } = require('tdl-tdlib-addon')
 
 
-//+3547689058 Ice Baby
+//+3547640625 Ice Baby
 
 // "/root/td/tdlib/lib/libtdjson.so" 
 
