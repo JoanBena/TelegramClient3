@@ -3,7 +3,7 @@ const { TDLib } = require("tdl-tdlib-addon");
 // request for server scheduling
 const cron = require("node-cron");
 
-//+3547689058 Ice Baby
+//+3547640625 Ice Baby
 
 const client4 = new Client(new TDLib("/root/td/tdlib/lib/libtdjson.so"), {
   apiId: 17784015, // Your api_id
