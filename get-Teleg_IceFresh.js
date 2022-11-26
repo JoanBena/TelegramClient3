@@ -1,7 +1,7 @@
 const { Client } = require('tdl')
 const { TDLib } = require('tdl-tdlib-addon')
 
-// Teleg_3.3 +3547639834
+// +3547639834
 // "/root/td/tdlib/lib/libtdjson.so" 
 
 const client3 = new Client(new TDLib("/root/td/tdlib/lib/libtdjson.so"), {
