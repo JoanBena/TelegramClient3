@@ -33,7 +33,7 @@ const chatIds_4 = [
   -1001488081229,-227003856  
 ];
 
-const flag ="🇮🌠🌠BLUE DREAM 🌠🌠\n💙🧀BLUE CHEESE 🧀💙\n⚡️⚡️NORTHERN LIGHT⚡️⚡️\n\n";
+const flag ="🌠🌠BLUE DREAM 🌠🌠\n💙🧀BLUE CHEESE 🧀💙\n⚡️⚡️NORTHERN LIGHT⚡️⚡️\n\n";
 const xxxxxx = "👉PICK UP & GET DISSCOUNT\n\n";
 const motto ="🪙🚀THE BEST QUALITY🪙🚀\n⚖️GRAM IS REAL GRAM⚖️\n\n";
 const call ="Call me here📲 7648627 ☎️\nCall me here📲 7648627☎️\nCall me here📲 7648627☎️\nText 📲 7648627📲\nWhats up me 📲7648627 ☎️\n\n\n";
@@ -74,8 +74,7 @@ async function sendMessageToGroupTeleg3_4(chat4, message) {
           "@type": "inputMessagePhoto",
           photo: {
             "@type": "inputFileLocal",
-            path: "telegramImageUpdate.jpg
-",
+            path: "telegramImageUpdate.jpg",
           },
           caption: {
             "@type": "formattedText",
